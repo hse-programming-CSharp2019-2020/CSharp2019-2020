@@ -9,6 +9,7 @@ namespace Task02
     public class Car
     {
         public delegate void CarEngineHandler(string msgForCaller);
+
         private CarEngineHandler listOfHandlers;
         public void RegisterWithCarEngine(CarEngineHandler methodToCall)
         {
