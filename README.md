@@ -17,3 +17,8 @@ Tips:
 - организация на гите, куда надо присоединиться (тут будут наши с вами материалы + общие) https://github.com/hse-programming-CSharp2019-2020/CSharp2019-2020
 - PeerGrade https://www.peergrade.io
 - ведомость https://docs.google.com/spreadsheets/d/1XVW8U9TMOXIoCzHxSGDiVMyAJAUiHrttqeMLtEa02ew/edit?usp=sharing
+- про git:
+  - https://learngitbranching.js.org наглядные уроки
+  - http://git-school.github.io/visualizing-git/ консоль с визуализацией
+  - https://git-scm.com/book/ru/v2 справочник по git
+
