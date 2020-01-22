@@ -14,7 +14,8 @@ namespace Task01
 
         static void Main(string[] args)
         {
-            /*Cast cast = ForMyDelegate;
+            /* examples
+            Cast cast = ForMyDelegate;
             Console.WriteLine(cast(10.5));
 
             Cast cast2 = delegate (double p) {
@@ -27,11 +28,6 @@ namespace Task01
 
             Console.ReadKey();*/
 
-
-
-
-
-
             Cast obj1 = delegate (double par)
             {
                 return (int)Math.Round((par) / 2 * 2);
@@ -41,8 +37,8 @@ namespace Task01
             obj2 -= M;
             Console.WriteLine("cast1(test)={0}, cast2(test)= {1}",
                 obj1(15.68), obj2?.Invoke(15.68));
-            //Console.WriteLine("cast1(4.46)={0}, cast2(4.46)= {1}",
-              //  obj1(4.46), obj2(4.46));
+            Console.WriteLine("cast1(4.46)={0}, cast2(4.46)= {1}",
+                obj1(4.46), obj2(4.46));
             Console.ReadKey();
         }
         public static int M(double par)
