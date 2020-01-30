@@ -12,7 +12,7 @@ namespace Task01
         public static string RemoveDigits(string str)
         {
             if (str == string.Empty)
-                throw new ArgumentException();
+                throw new ArgumentOutOfRangeException();
 
             while (str.IndexOfAny("0123456789".ToCharArray()) > -1)
                 str = str.Remove(str.IndexOfAny("0123456789".ToCharArray()), 1);
@@ -23,7 +23,7 @@ namespace Task01
         public static string RemoveSpaces(string str)
         {
             if (str == string.Empty)
-                throw new ArgumentException();
+                throw new ArgumentOutOfRangeException();
 
             while (str.IndexOfAny(" ".ToCharArray()) > -1)
                 str = str.Remove(str.IndexOfAny(" ".ToCharArray()), 1);
