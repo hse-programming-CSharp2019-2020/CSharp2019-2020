@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seminar_3_04_03Beads", "Seminar_3_04_03Beads\Seminar_3_04_03Beads.csproj", "{FFBA703D-4B00-4149-BFF9-081C8F94FB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seminar_3_04_04Beads_EventArgs", "Seminar_3_04_04Beads_EventArgs\Seminar_3_04_04Beads_EventArgs.csproj", "{70279604-6C1F-4F4E-B616-103A06BB24F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFBA703D-4B00-4149-BFF9-081C8F94FB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBA703D-4B00-4149-BFF9-081C8F94FB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBA703D-4B00-4149-BFF9-081C8F94FB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBA703D-4B00-4149-BFF9-081C8F94FB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70279604-6C1F-4F4E-B616-103A06BB24F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70279604-6C1F-4F4E-B616-103A06BB24F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70279604-6C1F-4F4E-B616-103A06BB24F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70279604-6C1F-4F4E-B616-103A06BB24F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98987371-D75E-4F46-83F0-20ECB8D62E12}
+	EndGlobalSection
+EndGlobal
