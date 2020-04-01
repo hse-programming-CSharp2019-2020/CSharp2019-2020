@@ -1,34 +1,21 @@
 ﻿using System;
-class D<E> 
+class Account<T>
 {
-    E F { set; get; }
+    public static T session;
 
-    public D()
-    {
-        F = default(E);
-    }
-    public D(E d)
-    {
-        F = d;
-    }
+    public T Id { get; set; }
+    public int Sum { get; set; }
 }
-
-class C<A, B>
+public class Example
 {
-    public A First { set; get; }
-    public B Second { set; get; }
-}
-class AA<T> where T : class, System.Enum, ICloneable { }
-
-class Program
-{
-    static void Main(string[] args)
+    public static void Main()
     {
-        C<D<string>, 
-            int> c = new C<D<string>, int>();
-        c.First = new D<string>("25");
-        c.Second = 25;
-        Console.Write(c.Second + c.First.ToString());
+        Account<int> account1 = new Account<int> { Sum = 5000 };
+        Account<int>.session = 54;
+        Account<string> account2 = new Account<string> { Sum = 4000 };
+        Account<string>.session = "45";
+        Console.WriteLine(Account<int>.session);
+        Console.WriteLine(Account<string>.session);
         Console.ReadKey();
     }
 }

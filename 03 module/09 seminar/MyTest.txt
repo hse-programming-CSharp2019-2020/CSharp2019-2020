@@ -1,0 +1,10 @@
+0,069 0,012 Brown
+0,023 0,590 DarkSeaGreen
+0,073 0,807 Purple
+0,398 0,184 Crimson
+0,325 0,207 Red
+0,552 0,347 BlueViolet
+0,250 0,260 DarkOrange
+0,805 0,444 Red
+0,503 0,879 Purple
+0,946 0,835 Black
